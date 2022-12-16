@@ -5,7 +5,7 @@ const Contact = () => {
         <section id="contact">
             <div className='mt-5 text-center'>
                 <h2 className='text-3xl'>Contact with me</h2>
-                <form action="https://formspree.io/abirdas422@gmail.com" method="post" className='grid lg:w-3/4 px-10 mx-auto mt-2'>
+                <form action="https://formspree.io/f/xwkzgdba" method="post" className='grid lg:w-3/4 px-10 mx-auto mt-2'>
 
                     <div className="form-control w-full my-2">
                         {/* <label className="label"> <span className="label-text">Your Name</span></label> */}

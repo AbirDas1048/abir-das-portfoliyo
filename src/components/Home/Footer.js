@@ -1,13 +1,14 @@
 import React from 'react';
 import { FaFacebookF, FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <footer className="footer footer-center p-4 bg-neutral text-base-content rounded">
+        <footer className="footer footer-center mt-5 p-4 bg-neutral text-base-content rounded">
             <div className="grid grid-flow-col gap-4">
-                <a className="link link-hover" href='/home'>Home</a>
-                <a className="link link-hover" href='#projects'>My Work</a>
-                <a className="link link-hover" href='#contact'>Contact</a>
+                <Link to="/">Home</Link>
+                <Link to="/about">About Me</Link>
+                <Link to="/blog">Blog</Link>
             </div>
 
             <div>

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Project from '../Projects/Project';
-import Contact from './Contact';
-import Footer from './Footer';
+// import Contact from './Contact';
 import Hero from './Hero';
 
 const Home = () => {
@@ -28,8 +27,7 @@ const Home = () => {
             </section>
 
 
-            <Contact></Contact>
-            <Footer></Footer>
+            {/* <Contact></Contact> */}
 
         </div>
     );
